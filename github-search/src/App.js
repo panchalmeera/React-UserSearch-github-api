@@ -14,7 +14,6 @@ class App extends Component {
   }
   searchInput = (event) => {
     this.setState({searchText: event.target.value});
-    console.log("Searched Text:",this.state.searchText);
     let url = 'https://api.github.com/search/users?q='+this.state.searchText;
     axios.get(url)
       .then(response =>{
