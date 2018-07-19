@@ -1,0 +1,22 @@
+.profile{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 10px;
+	color: blue;
+}
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+    background: white;
+    color: black;
+    margin: 10px auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
